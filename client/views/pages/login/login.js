@@ -1,13 +1,13 @@
 Template.login.rendered = () => {
-  Session.set('loginSelectionStep',true)
+  Session.set('loginSelectionStep',false)
   Session.set('loginAvalonStep',false)
   Session.set('loginHiveStep',false)
-  Session.set('loginSteemStep',false)
+  Session.set('loginSteemStep',true)
   Session.set('forcePostingKeyHive',false)
   Session.get('forcePostingKey',false)
   if (!Session.get('activeUsername')) {
     Session.set('loginSelectionStep',false)
-    Session.set('loginAvalonStep',true)
+    Session.set('loginSteemStep',true)
   }
 }
 
@@ -58,7 +58,8 @@ Template.login.events({
     Session.get('forcePostingKey',false)
   },
   'click .logOut' : (event) => {
-    var network = $(event.currentTarget).data('network')
+    // var network = $(event.currentTarget).data('network')
+    var network = 'steem'
     if (network == 'dtc')
       Users.remove({username: Session.get('activeUsername'), network: 'avalon'}, () => {
         Session.set('activeUsername', null)

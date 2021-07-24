@@ -46,7 +46,7 @@ Meteor.settings.public = {
   },
   "app": "dtube/1.1",
   "scot": null,
-  "logo": "./DTube_files/images/DTube_Black.svg",
+  "logo": "./DTube_files/images/Galaxii.JPG",
   "logonight": "./DTube_files/images/DTube_White.svg",
   "logosmall": "./DTube_files/images/logos/dtube.png",
   "logosmallnight": "./DTube_files/images/logos/dtube_white.png",

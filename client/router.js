@@ -166,7 +166,7 @@ FlowRouter.route('/election', {
         avalon.getLeaders(function(err, res) {
             Session.set('leaders', res)
         })
-        Session.set("pageTitle", 'Vote for DTube Leaders')
+        Session.set("pageTitle", 'Vote for Galaxii Leaders')
         Session.set("currentMenu", 12)
         Template.sidebar.selectMenu();
         BlazeLayout.render('masterLayout', {

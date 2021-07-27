@@ -7,11 +7,11 @@ import steem from 'steem'
 // lib/hive.js is automatically imported by Meteor, so no manual import is needed here.
 // Minified code from https://cdn.jsdelivr.net/npm/@hiveio/hive-js@0.8.4/dist/hive.min.js
 
-console.log('Starting DTube APP')
+console.log('Starting Galaxii  APP')
 
 FlowRouter.wait();
 Meteor.startup(function(){
-  console.log('DTube APP Started')
+  console.log('Galaxii APP Started')
 
   window.hive = hive
   window.steem = steem

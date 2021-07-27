@@ -34,7 +34,7 @@ Template.keypair.events({
             priv: priv
         })
         var blob = new Blob([key], {type: "text/plain;charset=utf-8"})
-        alert("Do not share your private key with anyone, even DTube staff")
+        alert("Do not share your private key with anyone, even Galaxii staff")
         alert("Do not lose your private key or it cannot be recovered")
         saveAs(blob, "dtube_key.txt")
     },

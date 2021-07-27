@@ -53,7 +53,7 @@ Meteor.settings.public = {
   "beneficiary": "dtube",
   "dmca": true,
   "pageTitleSeparator": "-",
-  "appName": "DTube",
+  "appName": "Galaxii",
   "ipfs": "",
   "lang": {
     "ar": {"name": "العربية", "path": "ar/ar-SA.json"},

@@ -160,7 +160,7 @@
 }
 
 .dtube.red.button {
-    background: #F01A30;
+    background: #55acee;
     margin-right: 0px !important;
     border-style: solid !important;
     border-width: 0px !important;
@@ -343,7 +343,7 @@
 /* change the spot color */
 
 .sparkline--spot {
-    stroke: #F01A30;
+    stroke: #55acee;
     fill: #E6E6E6;
 }
 
@@ -351,14 +351,14 @@
 /* change the cursor color */
 
 .sparkline--cursor {
-    stroke: #F01A30;
+    stroke: #55acee;
 }
 
 
 /* change the cursor color */
 
 .sparkline--zero {
-    stroke: #F01A30;
+    stroke: #55acee;
 }
 
 

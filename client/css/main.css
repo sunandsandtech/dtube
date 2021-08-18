@@ -207,7 +207,7 @@ body.nightmode .pusher .ui.divider.noborder {
 }
 
 #sidebar .sectionslist a:hover i {
-    color: #F01A30;
+    color: #55acee;
 }
 
 #sidebar.nightmode .sectionslist a:hover i {
@@ -215,7 +215,7 @@ body.nightmode .pusher .ui.divider.noborder {
 }
 
 #sidebar.nightmode .sectionslist a:hover .activemenu i {
-    color: #F01A30;
+    color: #55acee;
 }
 
 #sidebar .dtubesidebartitle {
@@ -640,7 +640,7 @@ button {
 
 .loginOption:hover {
     text-align: center;
-    border: 1px solid #F01A30;
+    border: 1px solid #55acee;
     cursor: pointer;
     box-shadow: 0px 0px 10px #00000024;
 }

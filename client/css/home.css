@@ -231,7 +231,7 @@
 }
 
 .reblogged {
-  color: #F01A30;
+  color: #55acee;
 }
 
 .title
@@ -271,7 +271,7 @@
 .activemenu
 {
   text-align: left;
-  color: #F01A30;
+  color: #55acee;
 }
 
 .activemenu .dtubesidebartitle
@@ -281,7 +281,7 @@
 
 .activemenu.nightmodetext
 {
-  color: #F01A30 !important;
+  color: #55acee !important;
 }
 
 .ui.left.visible.sidebar, .ui.right.visible.sidebar {
